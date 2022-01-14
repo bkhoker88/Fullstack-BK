@@ -65,7 +65,6 @@ class App extends Component {
         </form>
         <div className= 'results'>
             Results
-            <div>{error}</div>
             {sortedList.length? sortedList.map((restaurant,idx)=>
                 <div key = {idx} className= 'restaurant' >
                   <div>name = {restaurant[0]}</div>

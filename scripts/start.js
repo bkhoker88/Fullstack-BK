@@ -117,31 +117,4 @@ checkBrowsers(paths.appPath, isInteractive)
   });
 
 
-//   // will use papaParse to extract data from file paths
-// const Papa = require('papaparse')
-// const cuisinesCSV = 'public/cuisines.csv'
-// const restaurantsCSV = 'public/restaurants.csv'
-
-// // function for getting data from CSV files
-// let restaurantsList;
-// let cuisinesList;
-
-// const extractData = async (csv, catagory) => {
-//   const file = fs.readFileSync(csv);
-//   const data = file.toString();
-//     await Papa.parse(data, {
-//       delimiter: ',',
-//       complete: (res) => {
-//         console.log(`extracted ${catagory} `)
-//         catagory==="cuisines"? cuisinesList = res.data : restaurantsList=res.data
-//         console.log(restaurantsList)
-//         console.log(cuisinesList)
-//       }
-//     })
-// }
-
-// extractData(cuisinesCSV, "cuisines")
-// extractData(restaurantsCSV, "restaurants")
-
-
 
